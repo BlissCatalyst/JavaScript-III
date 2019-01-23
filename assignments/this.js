@@ -12,7 +12,7 @@
 // Principle 1
 
 // code example for Window Binding
-console.log(this);
+// console.log(this);
 
 // Principle 2
 
@@ -25,7 +25,7 @@ const jon = {
     }
 };
 
-jon.speak();
+// jon.speak();
 
 // Principle 3
 
@@ -36,7 +36,7 @@ const Person = function(age, name) {
 };
 
 const nathan = new Person(25, "Nathan");
-console.log(nathan.name);
+// console.log(nathan.name);
 
 // Principle 4
 
@@ -49,4 +49,4 @@ const jason = {
     name: "Jason"
 };
 
-speakName.call(jason);
+// speakName.call(jason);
